@@ -14,7 +14,6 @@ onValue(booksInDB, function(snapshot) {
     console.log(booksArray)
 })
 
-
 const booksEl = document.getElementById("books")
 
 function clearBooksListEl() {
