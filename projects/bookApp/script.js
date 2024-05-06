@@ -11,6 +11,8 @@ const booksInDB = ref(database, "books")
 
 onValue(booksInDB, function(snapshot) {
     console.log(snapshot)
+    console.log("hi")
+    console.log(8+8)
 })
 
 const booksEl = document.getElementById("books")
