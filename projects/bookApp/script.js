@@ -11,7 +11,10 @@ const booksInDB = ref(database, "books")
 
 onValue(booksInDB, function(snapshot) {
     let booksArray = Object.values(snapshot.val())
-    console.log(booksArray)
+    for (let i = 0; i < booksArray.length; i++) {
+        let currentBook = booksArray[i]
+        appendBookToBooksListEl(currentBook)
+    }
 })
 
 const booksEl = document.getElementById("books")
