@@ -25,7 +25,5 @@ function clearBooksListEl() {
 }
 
 function appendBookToBooksListEl(bookValue) {
-    const li = document.createElement("li");
-    li.textContent = bookValue;
-    booksEl.appendChild(li);
+    booksEl.innerHTML += `<li>${bookValue}</li>`
 }
