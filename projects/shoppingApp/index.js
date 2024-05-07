@@ -22,10 +22,10 @@ addButtonEl.addEventListener("click", function() {
 })
 
 onValue(shoppingListInDB, function(snapshot) {
+    clearElementContent(shoppingListEl);
+    
     if (snapshot.exists()) {
         let itemsArray = Object.entries(snapshot.val())
-    
-        clearElementContent(shoppingListEl);
         
         for (let i = 0; i < itemsArray.length; i++) {
             let currentItem = itemsArray[i]
