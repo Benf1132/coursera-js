@@ -18,14 +18,14 @@ addButtonEl.addEventListener("click", function() {
     
     push(shoppingListInDB, inputValue)
     
-    clearInputFieldEl()
+    clearElementContent(inputFieldEl);
 })
 
 onValue(shoppingListInDB, function(snapshot) {
     if (snapshot.exists()) {
         let itemsArray = Object.entries(snapshot.val())
     
-        clearShoppingListEl()
+        clearElementContent(shoppingListEl);
         
         for (let i = 0; i < itemsArray.length; i++) {
             let currentItem = itemsArray[i]
@@ -39,13 +39,10 @@ onValue(shoppingListInDB, function(snapshot) {
     }
 })
 
-function clearShoppingListEl() {
-    shoppingListEl.innerHTML = ""
+function clearElementContent(element) {
+    element.innerHTML = "";
 }
 
-function clearInputFieldEl() {
-    inputFieldEl.value = ""
-}
 
 function appendItemToShoppingListEl(item) {
     let itemID = item[0]
