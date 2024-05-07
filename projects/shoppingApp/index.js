@@ -5,7 +5,6 @@ const appSettings = {
     databaseURL: "https://realtime-database-c9212-default-rtdb.firebaseio.com/"
 }
 
-
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
 const shoppingListInDB = ref(database, "shoppingList")
@@ -19,7 +18,7 @@ addButtonEl.addEventListener("click", function() {
     
     push(shoppingListInDB, inputValue)
     
-    clearElementContent(inputFieldEl);
+    clearInputFieldEl()
 })
 
 onValue(shoppingListInDB, function(snapshot) {
@@ -40,8 +39,12 @@ onValue(shoppingListInDB, function(snapshot) {
     }
 })
 
-function clearElementContent(element) {
-    element.innerHTML = "";
+function clearShoppingListEl() {
+    shoppingListEl.innerHTML = ""
+}
+
+function clearInputFieldEl() {
+    inputFieldEl.value = ""
 }
 
 function appendItemToShoppingListEl(item) {
@@ -51,7 +54,7 @@ function appendItemToShoppingListEl(item) {
     let newEl = document.createElement("li")
     
     newEl.textContent = itemValue
-
+    
     newEl.addEventListener("click", function() {
         let exactLocationOfItemInDB = ref(database, `shoppingList/${itemID}`)
         
