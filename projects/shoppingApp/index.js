@@ -44,6 +44,7 @@ function clearShoppingListEl() {
 }
 
 function clearInputFieldEl() {
+    console.log("Clearing input field");
     inputFieldEl.value = ""
 }
 
