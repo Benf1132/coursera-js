@@ -13,7 +13,6 @@ const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
 const shoppingListEl = document.getElementById("shopping-list")
 
-console.log(5+5)
 addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
     
@@ -45,7 +44,6 @@ function clearShoppingListEl() {
 }
 
 function clearInputFieldEl() {
-    console.log("Clearing input field");
     inputFieldEl.value = ""
 }
 
