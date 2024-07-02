@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="328.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="242.0" layoutY="502.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="72.0" text="Enter">
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="242.0" layoutY="315.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" text="Clear">
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="268.0" layoutY="461.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="47.0" text="+">
+         <padding>
+            <Insets bottom="5.0" left="15.0" right="15.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="227.0" layoutY="352.0" mnemonicParsing="false" text=")">
+         <padding>
+            <Insets bottom="5.0" left="15.0" right="15.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="78.0" layoutY="502.0" mnemonicParsing="false" text="0">
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="182.0" layoutY="502.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="47.0" text="(-)">
+         <padding>
+            <Insets bottom="5.0" left="15.0" right="15.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="140.0" layoutY="502.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="4.0" text=".">
+         <padding>
+            <Insets bottom="5.0" left="15.0" right="15.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="78.0" layoutY="461.0" mnemonicParsing="false" text="1">
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="202.0" layoutY="461.0" mnemonicParsing="false" text="3">
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="140.0" layoutY="461.0" mnemonicParsing="false" text="2">
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="78.0" layoutY="422.0" mnemonicParsing="false" text="4">
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="202.0" layoutY="422.0" mnemonicParsing="false" text="6">
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="140.0" layoutY="422.0" mnemonicParsing="false" text="5">
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="78.0" layoutY="387.0" mnemonicParsing="false" text="7">
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="202.0" layoutY="387.0" mnemonicParsing="false" text="9">
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="140.0" layoutY="387.0" mnemonicParsing="false" text="8">
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="16.0" layoutY="315.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="79.0" text="Variables">
+         <padding>
+            <Insets bottom="5.0" left="5.7" right="7.5" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="16.0" layoutY="352.0" mnemonicParsing="false" text="BackSpace">
+         <padding>
+            <Insets bottom="5.0" left="7.5" right="7.5" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="194.0" layoutY="315.0" mnemonicParsing="false" text="tan">
+         <padding>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="267.0" layoutY="423.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="47.0" text="-" textAlignment="CENTER">
+         <font>
+            <Font name="Aharoni Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="268.0" layoutY="386.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="47.0" text="x">
+         <padding>
+            <Insets bottom="5.0" left="15.0" right="15.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="268.0" layoutY="351.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="47.0" text="/" textAlignment="CENTER">
+         <font>
+            <Font name="Aharoni Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="16.0" layoutY="386.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="47.0" text="\%" textAlignment="CENTER">
+         <font>
+            <Font name="Aharoni Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="185.0" layoutY="352.0" mnemonicParsing="false" text="(">
+         <padding>
+            <Insets bottom="5.0" left="15.0" right="15.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="140.0" layoutY="352.0" mnemonicParsing="false" text="^">
+         <padding>
+            <Insets bottom="5.0" left="15.0" right="15.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="94.0" layoutY="352.0" mnemonicParsing="false" text="sqrt">
+         <padding>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="16.0" layoutY="422.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="47.0" text="pi" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="16.0" layoutY="461.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="47.0" text="log" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="16.0" layoutY="502.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="47.0" text="ln" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="147.0" layoutY="315.0" mnemonicParsing="false" text="cos">
+         <padding>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="101.0" layoutY="315.0" mnemonicParsing="false" text="sin">
+         <padding>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+         </padding>
+      </Button>
+      <TextField layoutX="16.0" layoutY="275.0" prefHeight="25.0" prefWidth="296.0" />
+      <TextFlow layoutX="15.0" layoutY="13.0" prefHeight="247.0" prefWidth="296.0" />
+   </children>
+</AnchorPane>
